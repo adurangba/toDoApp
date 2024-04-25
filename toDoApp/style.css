@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(180deg,#0aa0df 50%, #47a 25%) ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 50%;
+    padding: 2% ;
+    background: #dea;
+}
+.projectTitle p{
+    text-align: center;
+    font-size: 1.3rem;
+    color: #0aa0df;
+
+}
+.toDoSetup{
+    width: 90%;
+    background-color: #fff;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.toDoSetup input{
+    width: 69%;
+    padding: 2%;
+    font-size: 1.3rem;
+    border: 0;
+    outline: 0;
+}
+
+.toDoSetup .add{
+    width: 30%;
+    background: #47a;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 2%;
+    outline: 0;
+    border: 0;
+    transition: all 2s ease-in-out;
+}
+.toDoSetup .add:active{
+    background-color: #001a25;
+}
+.list{
+    width: 90%;
+    border-top: 3px solid #000;
+    margin-top: 3%;
+}
+ul#todo-list {
+    display: flex;
+    flex-direction: row-reverse;
+}
+ul#todo-list li{
+    width: 70%;
+    background-color: red;
+}
+
